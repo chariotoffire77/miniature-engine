@@ -9,5 +9,8 @@
   <modules>
   	<module>quickstart-maestro</module>
   	<module>webapp-maestro</module>
+  	<module>command-maestro</module>
+  	<module>persist-maestro</module>
+  	<module>model-maestro</module>
   </modules>
 </project>
