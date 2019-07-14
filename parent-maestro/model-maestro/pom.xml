@@ -4,7 +4,7 @@
   <parent>
     <artifactId>parent-maestro</artifactId>
     <groupId>com.maestro.alala</groupId>
-    <version>1.0.0</version>
+    <version>1.0.1-SNAPSHOT</version>
   </parent>
 
   <artifactId>model-maestro</artifactId>

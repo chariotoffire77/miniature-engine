@@ -4,7 +4,7 @@
   <parent>
     <groupId>com.maestro.alala</groupId>
     <artifactId>parent-maestro</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1-SNAPSHOT</version>
   </parent>
 
   <artifactId>webapp-maestro</artifactId>
@@ -35,7 +35,7 @@
     <dependency>
     	<groupId>com.maestro.alala</groupId>
     	<artifactId>quickstart-maestro</artifactId>
-    	<version>1.0.0</version>
+    	<version>1.0.1-SNAPSHOT</version>
     	<exclusions>
     		<exclusion>
     			<artifactId>icu4j</artifactId>
