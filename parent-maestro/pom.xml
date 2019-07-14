@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.maestro.alala</groupId>
   <artifactId>parent-maestro</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>1.0.0</version>
   <packaging>pom</packaging>
   <name>parent-maestro</name>
   <description>parent of maestro project</description>
@@ -49,6 +49,7 @@
         <!--
 	<developerConnection>scm:git:git@github.com:kevinsawicki/github-maven-example.git</developerConnection>
         -->
+    <tag>1.0.0</tag>
   </scm>
 
 </project>
