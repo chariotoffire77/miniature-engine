@@ -1,0 +1,141 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.maestro.alala:webapp-maestro:war:0.0.1-SNAPSHOT
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: com.maestro.alala:quickstart-maestro:jar -> duplicate declaration of version 0.0.1-SNAPSHOT @ line 52, column 17
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] ------------------< com.maestro.alala:webapp-maestro >------------------
+[INFO] Building webapp-maestro Maven Webapp 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[INFO] >>> maven-jetty-plugin:6.1.26:run (default-cli) > test-compile @ webapp-maestro >>>
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ webapp-maestro ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ webapp-maestro ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ webapp-maestro ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/chariotoffire77/git/git_ssh/miniature-engine/parent-maestro/webapp-maestro/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ webapp-maestro ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< maven-jetty-plugin:6.1.26:run (default-cli) < test-compile @ webapp-maestro <<<
+[INFO] 
+[INFO] 
+[INFO] --- maven-jetty-plugin:6.1.26:run (default-cli) @ webapp-maestro ---
+[INFO] Configuring Jetty for project: webapp-maestro Maven Webapp
+[INFO] Webapp source directory = /home/chariotoffire77/git/git_ssh/miniature-engine/parent-maestro/webapp-maestro/src/main/webapp
+[INFO] Reload Mechanic: automatic
+[INFO] Classes = /home/chariotoffire77/git/git_ssh/miniature-engine/parent-maestro/webapp-maestro/target/classes
+[INFO] Logging to org.slf4j.impl.MavenSimpleLogger(org.mortbay.log) via org.mortbay.log.Slf4jLog
+[INFO] Context path = /webapp-maestro
+[INFO] Tmp directory =  determined at runtime
+[INFO] Web defaults = org/mortbay/jetty/webapp/webdefault.xml
+[INFO] Web overrides =  none
+[INFO] web.xml file = /home/chariotoffire77/git/git_ssh/miniature-engine/parent-maestro/webapp-maestro/src/main/webapp/WEB-INF/web.xml
+[INFO] Webapp directory = /home/chariotoffire77/git/git_ssh/miniature-engine/parent-maestro/webapp-maestro/src/main/webapp
+[INFO] Starting jetty 6.1.26 ...
+[INFO] jetty-6.1.26
+[INFO] No Transaction manager found - if your webapp requires one, please configure one.
+[INFO] Set web app root system property: 'webapp.root' = [/home/chariotoffire77/git/git_ssh/miniature-engine/parent-maestro/webapp-maestro/src/main/webapp]
+[INFO] Initializing Log4J from [/home/chariotoffire77/git/git_ssh/miniature-engine/parent-maestro/webapp-maestro/src/main/webapp/WEB-INF/log4j.properties]
+[INFO] Initializing Spring root WebApplicationContext
+122 [main] INFO org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization started
+136 [main] INFO org.springframework.web.context.support.XmlWebApplicationContext - Refreshing org.springframework.web.context.support.XmlWebApplicationContext@23f72d88: display name [Root WebApplicationContext]; startup date [Sat Aug 03 09:37:36 EDT 2019]; root of context hierarchy
+160 [main] INFO org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [applicationContext-weather.xml]
+286 [main] INFO org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [applicationContext-persist.xml]
+303 [main] INFO org.springframework.web.context.support.XmlWebApplicationContext - Bean factory for application context [org.springframework.web.context.support.XmlWebApplicationContext@23f72d88]: org.springframework.beans.factory.support.DefaultListableBeanFactory@6cd164a6
+313 [main] INFO org.springframework.beans.factory.support.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@6cd164a6: defining beans [weatherService,yahooRetriever,yahooParser,sessionFactory,locationDAO,weatherDAO]; root of factory hierarchy
+313 [main] INFO org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 189 ms
+[INFO] Initializing Spring FrameworkServlet 'weather'
+361 [main] INFO org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'weather': initialization started
+362 [main] INFO org.springframework.web.context.support.XmlWebApplicationContext - Refreshing org.springframework.web.context.support.XmlWebApplicationContext@49122b8f: display name [WebApplicationContext for namespace 'weather-servlet']; startup date [Sat Aug 03 09:37:36 EDT 2019]; parent: org.springframework.web.context.support.XmlWebApplicationContext@23f72d88
+363 [main] INFO org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/weather-servlet.xml]
+385 [main] INFO org.springframework.web.context.support.XmlWebApplicationContext - Bean factory for application context [org.springframework.web.context.support.XmlWebApplicationContext@49122b8f]: org.springframework.beans.factory.support.DefaultListableBeanFactory@2a331b46
+389 [main] INFO org.springframework.beans.factory.support.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@2a331b46: defining beans [weatherController,historyController,urlMapping,velocityConfig,viewResolver]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@6cd164a6
+439 [main] INFO org.hibernate.cfg.annotations.Version - Hibernate Annotations 3.2.1.GA
+443 [main] INFO org.hibernate.cfg.Environment - Hibernate 3.2.7
+444 [main] INFO org.hibernate.cfg.Environment - hibernate.properties not found
+445 [main] INFO org.hibernate.cfg.Environment - Bytecode provider name : cglib
+451 [main] INFO org.hibernate.cfg.Environment - using JDK 1.4 java.sql.Timestamp handling
+494 [main] INFO org.springframework.orm.hibernate3.annotation.AnnotationSessionFactoryBean - Building new Hibernate SessionFactory
+514 [main] INFO org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: com.maestro.alala.weather.model.Atmosphere
+527 [main] INFO org.hibernate.cfg.annotations.EntityBinder - Bind entity com.maestro.alala.weather.model.Atmosphere on table Atmosphere
+548 [main] INFO org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: com.maestro.alala.weather.model.Condition
+548 [main] INFO org.hibernate.cfg.annotations.EntityBinder - Bind entity com.maestro.alala.weather.model.Condition on table Condition
+550 [main] INFO org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: com.maestro.alala.weather.model.Location
+551 [main] INFO org.hibernate.cfg.annotations.QueryBinder - Binding Named query: Location.uniqueByZip => from Location l where l.zip = :zip
+551 [main] INFO org.hibernate.cfg.annotations.EntityBinder - Bind entity com.maestro.alala.weather.model.Location on table Location
+552 [main] INFO org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: com.maestro.alala.weather.model.Weather
+552 [main] INFO org.hibernate.cfg.annotations.QueryBinder - Binding Named query: Weather.byLocation => from Weather w where w.location = :location
+552 [main] INFO org.hibernate.cfg.annotations.EntityBinder - Bind entity com.maestro.alala.weather.model.Weather on table Weather
+556 [main] INFO org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: com.maestro.alala.weather.model.Wind
+557 [main] INFO org.hibernate.cfg.annotations.EntityBinder - Bind entity com.maestro.alala.weather.model.Wind on table Wind
+597 [main] INFO org.hibernate.connection.DriverManagerConnectionProvider - Using Hibernate built-in connection pool (not for production use!)
+598 [main] INFO org.hibernate.connection.DriverManagerConnectionProvider - Hibernate connection pool size: 0
+598 [main] INFO org.hibernate.connection.DriverManagerConnectionProvider - autocommit mode: true
+599 [main] INFO org.hibernate.connection.DriverManagerConnectionProvider - using driver: org.hsqldb.jdbcDriver at URL: jdbc:hsqldb:data/weather;shutdown=true
+600 [main] INFO org.hibernate.connection.DriverManagerConnectionProvider - connection properties: {user=sa, password=****, autocommit=true, release_mode=on_close}
+710 [main] INFO org.hibernate.cfg.SettingsFactory - RDBMS: HSQL Database Engine, version: 1.8.0
+710 [main] INFO org.hibernate.cfg.SettingsFactory - JDBC driver: HSQL Database Engine Driver, version: 1.8.0
+818 [main] INFO org.hibernate.dialect.Dialect - Using dialect: org.hibernate.dialect.HSQLDialect
+820 [main] INFO org.hibernate.transaction.TransactionFactoryFactory - Transaction strategy: org.hibernate.transaction.JDBCTransactionFactory
+820 [main] INFO org.hibernate.transaction.TransactionManagerLookupFactory - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+820 [main] INFO org.hibernate.cfg.SettingsFactory - Automatic flush during beforeCompletion(): disabled
+820 [main] INFO org.hibernate.cfg.SettingsFactory - Automatic session close at end of transaction: disabled
+821 [main] INFO org.hibernate.cfg.SettingsFactory - Scrollable result sets: enabled
+821 [main] INFO org.hibernate.cfg.SettingsFactory - JDBC3 getGeneratedKeys(): disabled
+821 [main] INFO org.hibernate.cfg.SettingsFactory - Connection release mode: on_close
+821 [main] INFO org.hibernate.cfg.SettingsFactory - Default batch fetch size: 1
+821 [main] INFO org.hibernate.cfg.SettingsFactory - Generate SQL with comments: disabled
+821 [main] INFO org.hibernate.cfg.SettingsFactory - Order SQL updates by primary key: disabled
+821 [main] INFO org.hibernate.cfg.SettingsFactory - Order SQL inserts for batching: disabled
+821 [main] INFO org.hibernate.cfg.SettingsFactory - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+822 [main] INFO org.hibernate.hql.ast.ASTQueryTranslatorFactory - Using ASTQueryTranslatorFactory
+822 [main] INFO org.hibernate.cfg.SettingsFactory - Query language substitutions: {}
+822 [main] INFO org.hibernate.cfg.SettingsFactory - JPA-QL strict compliance: disabled
+829 [main] INFO org.hibernate.cfg.SettingsFactory - Second-level cache: enabled
+829 [main] INFO org.hibernate.cfg.SettingsFactory - Query cache: disabled
+830 [main] INFO org.hibernate.cfg.SettingsFactory - Cache provider: org.hibernate.cache.NoCacheProvider
+830 [main] INFO org.hibernate.cfg.SettingsFactory - Optimize cache for minimal puts: disabled
+830 [main] INFO org.hibernate.cfg.SettingsFactory - Structured second-level cache entries: disabled
+831 [main] INFO org.hibernate.cfg.SettingsFactory - Statistics: disabled
+831 [main] INFO org.hibernate.cfg.SettingsFactory - Deleted entity synthetic identifier rollback: disabled
+831 [main] INFO org.hibernate.cfg.SettingsFactory - Default entity-mode: pojo
+831 [main] INFO org.hibernate.cfg.SettingsFactory - Named query checking : enabled
+850 [main] INFO org.hibernate.impl.SessionFactoryImpl - building session factory
+942 [main] INFO org.hibernate.impl.SessionFactoryObjectFactory - Not binding factory to JNDI, no JNDI name configured
+1038 [main] INFO org.springframework.web.servlet.view.velocity.VelocityConfigurer - ClasspathResourceLoader with name 'springMacro' added to configured VelocityEngine
+1041 [main] INFO org.apache.velocity.app.VelocityEngine - LogSystem has been deprecated. Please use a LogChute implementation.
+1044 [main] INFO org.apache.velocity.app.VelocityEngine - FileResourceLoader : adding path '/home/chariotoffire77/git/git_ssh/miniature-engine/parent-maestro/webapp-maestro/src/main/webapp/WEB-INF/vm'
+1070 [main] INFO org.apache.velocity.app.VelocityEngine - Velocimacro : added #springMessage(  code ) : source = org/springframework/web/servlet/view/velocity/spring.vm
+1070 [main] INFO org.apache.velocity.app.VelocityEngine - Velocimacro : added #springMessageText(  code text ) : source = org/springframework/web/servlet/view/velocity/spring.vm
+1071 [main] INFO org.apache.velocity.app.VelocityEngine - Velocimacro : added #springTheme(  code ) : source = org/springframework/web/servlet/view/velocity/spring.vm
+1071 [main] INFO org.apache.velocity.app.VelocityEngine - Velocimacro : added #springThemeText(  code text ) : source = org/springframework/web/servlet/view/velocity/spring.vm
+1071 [main] INFO org.apache.velocity.app.VelocityEngine - Velocimacro : added #springUrl(  relativeUrl ) : source = org/springframework/web/servlet/view/velocity/spring.vm
+1074 [main] INFO org.apache.velocity.app.VelocityEngine - Velocimacro : added #springBind(  path ) : source = org/springframework/web/servlet/view/velocity/spring.vm
+1074 [main] INFO org.apache.velocity.app.VelocityEngine - Velocimacro : added #springBindEscaped(  path htmlEscape ) : source = org/springframework/web/servlet/view/velocity/spring.vm
+1076 [main] INFO org.apache.velocity.app.VelocityEngine - Velocimacro : added #springFormInput(  path attributes ) : source = org/springframework/web/servlet/view/velocity/spring.vm
+1076 [main] INFO org.apache.velocity.app.VelocityEngine - Velocimacro : added #springFormPasswordInput(  path attributes ) : source = org/springframework/web/servlet/view/velocity/spring.vm
+1077 [main] INFO org.apache.velocity.app.VelocityEngine - Velocimacro : added #springFormHiddenInput(  path attributes ) : source = org/springframework/web/servlet/view/velocity/spring.vm
+1077 [main] INFO org.apache.velocity.app.VelocityEngine - Velocimacro : added #springFormTextarea(  path attributes ) : source = org/springframework/web/servlet/view/velocity/spring.vm
+1078 [main] INFO org.apache.velocity.app.VelocityEngine - Velocimacro : added #springFormSingleSelect(  path options attributes ) : source = org/springframework/web/servlet/view/velocity/spring.vm
+1079 [main] INFO org.apache.velocity.app.VelocityEngine - Velocimacro : added #springFormMultiSelect(  path options attributes ) : source = org/springframework/web/servlet/view/velocity/spring.vm
+1080 [main] INFO org.apache.velocity.app.VelocityEngine - Velocimacro : added #springFormRadioButtons(  path options separator attributes ) : source = org/springframework/web/servlet/view/velocity/spring.vm
+1081 [main] INFO org.apache.velocity.app.VelocityEngine - Velocimacro : added #springFormCheckboxes(  path options separator attributes ) : source = org/springframework/web/servlet/view/velocity/spring.vm
+1083 [main] INFO org.apache.velocity.app.VelocityEngine - Velocimacro : added #springShowErrors(  separator classOrStyle ) : source = org/springframework/web/servlet/view/velocity/spring.vm
+1084 [main] INFO org.apache.velocity.app.VelocityEngine - Velocimacro : added #springCloseTag(  ) : source = org/springframework/web/servlet/view/velocity/spring.vm
+1113 [main] INFO org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'weather': initialization completed in 752 ms
+[INFO] Started SelectChannelConnector@0.0.0.0:8080
+[INFO] Started Jetty Server
+0    INFO  YahooRetriever  - Retrieving Weather Data
+[WARNING] /webapp-maestro/weather.x: java.net.UnknownHostException: weather.yahooapis.com

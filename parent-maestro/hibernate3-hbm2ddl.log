@@ -1,0 +1,380 @@
+Apache Maven 3.6.1 (d66c9c0b3152b2e69ee9bac180bb8fcc8e6af555; 2019-04-04T15:00:29-04:00)
+Maven home: /usr/local/maven
+Java version: 1.8.0_191, vendor: Oracle Corporation, runtime: /opt/jdk1.8.0_191/jre
+Default locale: en_US, platform encoding: UTF-8
+OS name: "linux", version: "4.4.0-53-generic", arch: "amd64", family: "unix"
+[DEBUG] Created new class realm maven.api
+[DEBUG] Importing foreign packages into class realm maven.api
+[DEBUG]   Imported: javax.annotation.* < plexus.core
+[DEBUG]   Imported: javax.annotation.security.* < plexus.core
+[DEBUG]   Imported: javax.enterprise.inject.* < plexus.core
+[DEBUG]   Imported: javax.enterprise.util.* < plexus.core
+[DEBUG]   Imported: javax.inject.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.artifact < plexus.core
+[DEBUG]   Imported: org.apache.maven.classrealm < plexus.core
+[DEBUG]   Imported: org.apache.maven.cli < plexus.core
+[DEBUG]   Imported: org.apache.maven.configuration < plexus.core
+[DEBUG]   Imported: org.apache.maven.exception < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution.scope < plexus.core
+[DEBUG]   Imported: org.apache.maven.lifecycle < plexus.core
+[DEBUG]   Imported: org.apache.maven.model < plexus.core
+[DEBUG]   Imported: org.apache.maven.monitor < plexus.core
+[DEBUG]   Imported: org.apache.maven.plugin < plexus.core
+[DEBUG]   Imported: org.apache.maven.profiles < plexus.core
+[DEBUG]   Imported: org.apache.maven.project < plexus.core
+[DEBUG]   Imported: org.apache.maven.reporting < plexus.core
+[DEBUG]   Imported: org.apache.maven.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.rtinfo < plexus.core
+[DEBUG]   Imported: org.apache.maven.settings < plexus.core
+[DEBUG]   Imported: org.apache.maven.toolchain < plexus.core
+[DEBUG]   Imported: org.apache.maven.usability < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authentication < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authorization < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.events < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.observers < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.proxy < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.resource < plexus.core
+[DEBUG]   Imported: org.codehaus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.* < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.component < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.configuration < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.container < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.context < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.lifecycle < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.logging < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.personality < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.Xpp3Dom < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParser < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParserException < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlSerializer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.* < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.artifact < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.collection < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.deployment < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.graph < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.installation < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.internal.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.metadata < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.repository < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.resolution < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.spi < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.transfer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.version < plexus.core
+[DEBUG]   Imported: org.fusesource.jansi.* < plexus.core
+[DEBUG]   Imported: org.slf4j.* < plexus.core
+[DEBUG]   Imported: org.slf4j.event.* < plexus.core
+[DEBUG]   Imported: org.slf4j.helpers.* < plexus.core
+[DEBUG]   Imported: org.slf4j.spi.* < plexus.core
+[DEBUG] Populating class realm maven.api
+[INFO] Error stacktraces are turned on.
+[DEBUG] Message scheme: color
+[DEBUG] Message styles: debug info warning error success failure strong mojo project
+[DEBUG] Reading global settings from /usr/local/maven/conf/settings.xml
+[DEBUG] Reading user settings from /home/chariotoffire77/.m2/settings.xml
+[DEBUG] Reading global toolchains from /usr/local/maven/conf/toolchains.xml
+[DEBUG] Reading user toolchains from /home/chariotoffire77/.m2/toolchains.xml
+[DEBUG] Using local repository at /home/chariotoffire77/.m2/repository
+[DEBUG] Using manager EnhancedLocalRepositoryManager with priority 10.0 for /home/chariotoffire77/.m2/repository
+[INFO] Scanning for projects...
+[DEBUG] Extension realms for project com.maestro.alala:parent-maestro:pom:0.0.1-SNAPSHOT: (none)
+[DEBUG] Looking up lifecycle mappings for packaging pom from ClassRealm[plexus.core, parent: null]
+[DEBUG] Extension realms for project com.maestro.alala:model-maestro:jar:0.0.1-SNAPSHOT: (none)
+[DEBUG] Looking up lifecycle mappings for packaging jar from ClassRealm[plexus.core, parent: null]
+[DEBUG] Extension realms for project com.maestro.alala:command-maestro:jar:0.0.1-SNAPSHOT: (none)
+[DEBUG] Looking up lifecycle mappings for packaging jar from ClassRealm[plexus.core, parent: null]
+[DEBUG] Extension realms for project com.maestro.alala:quickstart-maestro:jar:0.0.1-SNAPSHOT: (none)
+[DEBUG] Looking up lifecycle mappings for packaging jar from ClassRealm[plexus.core, parent: null]
+[DEBUG] Extension realms for project com.maestro.alala:persist-maestro:jar:0.0.1-SNAPSHOT: (none)
+[DEBUG] Looking up lifecycle mappings for packaging jar from ClassRealm[plexus.core, parent: null]
+[DEBUG] Extension realms for project com.maestro.alala:webapp-maestro:war:0.0.1-SNAPSHOT: (none)
+[DEBUG] Looking up lifecycle mappings for packaging war from ClassRealm[plexus.core, parent: null]
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.maestro.alala:command-maestro:jar:0.0.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ line 15, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.maestro.alala:persist-maestro:jar:0.0.1-SNAPSHOT
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.hibernate:hibernate-annotations:jar -> version 3.3.0.ga vs 3.5.6-Final @ line 65, column 17
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.maestro.alala:webapp-maestro:war:0.0.1-SNAPSHOT
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: com.maestro.alala:quickstart-maestro:jar -> duplicate declaration of version 0.0.1-SNAPSHOT @ line 52, column 17
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] parent-maestro                                                     [pom]
+[INFO] model-maestro                                                      [jar]
+[INFO] quickstart-maestro                                                 [jar]
+[INFO] persist-maestro                                                    [jar]
+[INFO] command-maestro                                                    [jar]
+[INFO] webapp-maestro Maven Webapp                                        [war]
+[DEBUG] Resolving plugin prefix hibernate3 from [org.apache.maven.plugins, org.codehaus.mojo]
+[DEBUG] Could not find metadata org.apache.maven.plugins/maven-metadata.xml in local (/home/chariotoffire77/.m2/repository)
+[DEBUG] Skipped remote request for org.apache.maven.plugins/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Could not find metadata org.codehaus.mojo/maven-metadata.xml in local (/home/chariotoffire77/.m2/repository)
+[DEBUG] Skipped remote request for org.codehaus.mojo/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Resolved plugin prefix hibernate3 to org.codehaus.mojo:hibernate3-maven-plugin from repository central
+[DEBUG] Could not find metadata org.codehaus.mojo:hibernate3-maven-plugin/maven-metadata.xml in local (/home/chariotoffire77/.m2/repository)
+[DEBUG] Skipped remote request for org.codehaus.mojo:hibernate3-maven-plugin/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Resolved plugin version for org.codehaus.mojo:hibernate3-maven-plugin to 3.0 from repository central (https://repo.maven.apache.org/maven2, default, releases)
+[DEBUG] === REACTOR BUILD PLAN ================================================
+[DEBUG] Project: com.maestro.alala:parent-maestro:pom:0.0.1-SNAPSHOT
+[DEBUG] Tasks:   [hibernate3:hbm2ddl]
+[DEBUG] Style:   Regular
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Project: com.maestro.alala:model-maestro:jar:0.0.1-SNAPSHOT
+[DEBUG] Tasks:   [hibernate3:hbm2ddl]
+[DEBUG] Style:   Regular
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Project: com.maestro.alala:quickstart-maestro:jar:0.0.1-SNAPSHOT
+[DEBUG] Tasks:   [hibernate3:hbm2ddl]
+[DEBUG] Style:   Regular
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Project: com.maestro.alala:persist-maestro:jar:0.0.1-SNAPSHOT
+[DEBUG] Tasks:   [hibernate3:hbm2ddl]
+[DEBUG] Style:   Regular
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Project: com.maestro.alala:command-maestro:jar:0.0.1-SNAPSHOT
+[DEBUG] Tasks:   [hibernate3:hbm2ddl]
+[DEBUG] Style:   Regular
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Project: com.maestro.alala:webapp-maestro:war:0.0.1-SNAPSHOT
+[DEBUG] Tasks:   [hibernate3:hbm2ddl]
+[DEBUG] Style:   Regular
+[DEBUG] =======================================================================
+[INFO] 
+[INFO] ------------------< com.maestro.alala:parent-maestro >------------------
+[INFO] Building parent-maestro 0.0.1-SNAPSHOT                             [1/6]
+[INFO] --------------------------------[ pom ]---------------------------------
+[DEBUG] Resolving plugin prefix hibernate3 from [org.apache.maven.plugins, org.codehaus.mojo]
+[DEBUG] Could not find metadata org.apache.maven.plugins/maven-metadata.xml in local (/home/chariotoffire77/.m2/repository)
+[DEBUG] Skipped remote request for org.apache.maven.plugins/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Could not find metadata org.codehaus.mojo/maven-metadata.xml in local (/home/chariotoffire77/.m2/repository)
+[DEBUG] Skipped remote request for org.codehaus.mojo/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Resolved plugin prefix hibernate3 to org.codehaus.mojo:hibernate3-maven-plugin from repository central
+[DEBUG] Could not find metadata org.codehaus.mojo:hibernate3-maven-plugin/maven-metadata.xml in local (/home/chariotoffire77/.m2/repository)
+[DEBUG] Skipped remote request for org.codehaus.mojo:hibernate3-maven-plugin/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Resolved plugin version for org.codehaus.mojo:hibernate3-maven-plugin to 3.0 from repository central (https://repo.maven.apache.org/maven2, default, releases)
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] === PROJECT BUILD PLAN ================================================
+[DEBUG] Project:       com.maestro.alala:parent-maestro:0.0.1-SNAPSHOT
+[DEBUG] Dependencies (collect): []
+[DEBUG] Dependencies (resolve): [runtime]
+[DEBUG] Repositories (dependencies): [central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] Repositories (plugins)     : [central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] --- init fork of com.maestro.alala:parent-maestro:0.0.1-SNAPSHOT for org.codehaus.mojo:hibernate3-maven-plugin:3.0:hbm2ddl (default-cli) ---
+[DEBUG] Dependencies (collect): []
+[DEBUG] Dependencies (resolve): []
+[DEBUG] --- exit fork of com.maestro.alala:parent-maestro:0.0.1-SNAPSHOT for org.codehaus.mojo:hibernate3-maven-plugin:3.0:hbm2ddl (default-cli) ---
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.codehaus.mojo:hibernate3-maven-plugin:3.0:hbm2ddl (default-cli)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <classRealm>${plugin.classRealm}</classRealm>
+  <hibernatetool>${hibernatetool}</hibernatetool>
+  <localRepository>${localRepository}</localRepository>
+  <session>${session}</session>
+</configuration>
+[DEBUG] =======================================================================
+[INFO] 
+[INFO] >>> hibernate3-maven-plugin:3.0:hbm2ddl (default-cli) > compile @ parent-maestro >>>
+[INFO] 
+[INFO] <<< hibernate3-maven-plugin:3.0:hbm2ddl (default-cli) < compile @ parent-maestro <<<
+[INFO] 
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=422799, ConflictMarker.markTime=467247, ConflictMarker.nodeCount=3, ConflictIdSorter.graphTime=278565, ConflictIdSorter.topsortTime=227950, ConflictIdSorter.conflictIdCount=2, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=1913533, ConflictResolver.conflictItemCount=2, DefaultDependencyCollector.collectTime=11859873, DefaultDependencyCollector.transformTime=4687844}
+[DEBUG] com.maestro.alala:parent-maestro:pom:0.0.1-SNAPSHOT
+[DEBUG]    org.springframework:spring:jar:2.5.6:compile
+[DEBUG]       commons-logging:commons-logging:jar:1.1.1:compile
+[INFO] 
+[INFO] --- hibernate3-maven-plugin:3.0:hbm2ddl (default-cli) @ parent-maestro ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=501611, ConflictMarker.markTime=235591, ConflictMarker.nodeCount=115, ConflictIdSorter.graphTime=246689, ConflictIdSorter.topsortTime=49122, ConflictIdSorter.conflictIdCount=42, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=5421812, ConflictResolver.conflictItemCount=85, DefaultDependencyCollector.collectTime=175959393, DefaultDependencyCollector.transformTime=6530400}
+[DEBUG] org.codehaus.mojo:hibernate3-maven-plugin:jar:3.0:
+[DEBUG]    org.hibernate:hibernate-tools:jar:3.2.4.GA:compile
+[DEBUG]       org.beanshell:bsh:jar:2.0b4:compile
+[DEBUG]       freemarker:freemarker:jar:2.3.8:compile
+[DEBUG]       org.hibernate:jtidy:jar:r8-20060801:compile
+[DEBUG]    org.slf4j:jcl-over-slf4j:jar:1.6.1:runtime
+[DEBUG]       org.slf4j:slf4j-api:jar:1.6.1:runtime
+[DEBUG]    org.slf4j:slf4j-nop:jar:1.6.1:runtime
+[DEBUG]    org.apache.maven.plugins:maven-antrun-plugin:jar:1.6:compile
+[DEBUG]       org.apache.maven:maven-plugin-api:jar:2.0.1:compile
+[DEBUG]       org.apache.maven:maven-project:jar:2.0.11:compile
+[DEBUG]          org.apache.maven:maven-plugin-registry:jar:2.0.11:compile
+[DEBUG]          org.codehaus.plexus:plexus-interpolation:jar:1.1:compile
+[DEBUG]       org.apache.maven:maven-artifact:jar:2.0.11:compile
+[DEBUG]       org.apache.ant:ant-nodeps:jar:1.8.1:compile
+[DEBUG]          org.apache.ant:ant:jar:1.8.1:compile
+[DEBUG]             org.apache.ant:ant-launcher:jar:1.8.1:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:2.0.5:compile
+[DEBUG]    org.apache.maven:maven-core:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-plugin-parameter-documenter:jar:2.2.1:compile
+[DEBUG]       org.slf4j:slf4j-jdk14:jar:1.5.6:runtime
+[DEBUG]       org.apache.maven.reporting:maven-reporting-api:jar:2.2.1:compile
+[DEBUG]          org.apache.maven.doxia:doxia-sink-api:jar:1.1:compile
+[DEBUG]          org.apache.maven.doxia:doxia-logging-api:jar:1.1:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-model:jar:2.2.1:compile
+[DEBUG]       org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]          junit:junit:jar:4.10:test
+[DEBUG]             org.hamcrest:hamcrest-core:jar:1.1:test
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-error-diagnostics:jar:2.2.1:compile
+[DEBUG]       commons-cli:commons-cli:jar:1.2:compile
+[DEBUG]       org.apache.maven:maven-plugin-descriptor:jar:2.2.1:compile
+[DEBUG]       org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4:compile
+[DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.2.1:compile
+[DEBUG]          backport-util-concurrent:backport-util-concurrent:jar:3.1:compile
+[DEBUG]       org.apache.maven:maven-monitor:jar:2.2.1:compile
+[DEBUG]       classworlds:classworlds:jar:1.1:compile
+[DEBUG]       org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile
+[DEBUG]          org.sonatype.plexus:plexus-cipher:jar:1.4:compile
+[DEBUG] Created new class realm plugin>org.codehaus.mojo:hibernate3-maven-plugin:3.0
+[DEBUG] Importing foreign packages into class realm plugin>org.codehaus.mojo:hibernate3-maven-plugin:3.0
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.codehaus.mojo:hibernate3-maven-plugin:3.0
+[DEBUG]   Included: org.codehaus.mojo:hibernate3-maven-plugin:jar:3.0
+[DEBUG]   Included: org.hibernate:hibernate-tools:jar:3.2.4.GA
+[DEBUG]   Included: org.beanshell:bsh:jar:2.0b4
+[DEBUG]   Included: freemarker:freemarker:jar:2.3.8
+[DEBUG]   Included: org.hibernate:jtidy:jar:r8-20060801
+[DEBUG]   Included: org.slf4j:jcl-over-slf4j:jar:1.6.1
+[DEBUG]   Included: org.slf4j:slf4j-nop:jar:1.6.1
+[DEBUG]   Included: org.apache.maven.plugins:maven-antrun-plugin:jar:1.6
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.1
+[DEBUG]   Included: org.apache.ant:ant-nodeps:jar:1.8.1
+[DEBUG]   Included: org.apache.ant:ant:jar:1.8.1
+[DEBUG]   Included: org.apache.ant:ant-launcher:jar:1.8.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:2.0.5
+[DEBUG]   Included: org.slf4j:slf4j-jdk14:jar:1.5.6
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-api:jar:2.2.1
+[DEBUG]   Included: org.apache.maven.doxia:doxia-sink-api:jar:1.1
+[DEBUG]   Included: org.apache.maven.doxia:doxia-logging-api:jar:1.1
+[DEBUG]   Included: commons-cli:commons-cli:jar:1.2
+[DEBUG]   Included: org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4
+[DEBUG]   Included: backport-util-concurrent:backport-util-concurrent:jar:3.1
+[DEBUG]   Included: org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3
+[DEBUG]   Included: org.sonatype.plexus:plexus-cipher:jar:1.4
+[DEBUG] Configuring mojo org.codehaus.mojo:hibernate3-maven-plugin:3.0:hbm2ddl from plugin realm ClassRealm[plugin>org.codehaus.mojo:hibernate3-maven-plugin:3.0, parent: sun.misc.Launcher$AppClassLoader@4e25154f]
+[DEBUG] Configuring mojo 'org.codehaus.mojo:hibernate3-maven-plugin:3.0:hbm2ddl' with basic configurator -->
+[DEBUG]   (f) classRealm = ClassRealm[plugin>org.codehaus.mojo:hibernate3-maven-plugin:3.0, parent: sun.misc.Launcher$AppClassLoader@4e25154f]
+[DEBUG]   (f) hibernatetool = <hibernatetool>${hibernatetool}</hibernatetool>
+
+[DEBUG]   (f) localRepository =       id: local
+      url: file:///home/chariotoffire77/.m2/repository/
+   layout: default
+snapshots: [enabled => true, update => always]
+ releases: [enabled => true, update => always]
+
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@641856
+[DEBUG] -- end configuration --
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for parent-maestro 0.0.1-SNAPSHOT:
+[INFO] 
+[INFO] parent-maestro ..................................... FAILURE [  0.289 s]
+[INFO] model-maestro ...................................... SKIPPED
+[INFO] quickstart-maestro ................................. SKIPPED
+[INFO] persist-maestro .................................... SKIPPED
+[INFO] command-maestro .................................... SKIPPED
+[INFO] webapp-maestro Maven Webapp ........................ SKIPPED
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  0.569 s
+[INFO] Finished at: 2019-07-28T22:38:21-04:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.codehaus.mojo:hibernate3-maven-plugin:3.0:hbm2ddl (default-cli) on project parent-maestro: There was an error creating the AntRun task.: NullPointerException -> [Help 1]
+org.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.codehaus.mojo:hibernate3-maven-plugin:3.0:hbm2ddl (default-cli) on project parent-maestro: There was an error creating the AntRun task.
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:215)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:156)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:148)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:117)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:81)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:56)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:128)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:305)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:192)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:105)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:956)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:288)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:192)
+    at sun.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at sun.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)
+    at sun.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:498)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:282)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:225)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:406)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:347)
+Caused by: org.apache.maven.plugin.MojoExecutionException: There was an error creating the AntRun task.
+    at org.codehaus.mojo.hibernate3.AbstractHibernateMojo.execute (AbstractHibernateMojo.java:84)
+    at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo (DefaultBuildPluginManager.java:137)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:210)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:156)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:148)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:117)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:81)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:56)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:128)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:305)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:192)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:105)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:956)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:288)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:192)
+    at sun.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at sun.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)
+    at sun.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:498)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:282)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:225)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:406)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:347)
+Caused by: java.lang.NullPointerException
+    at org.codehaus.plexus.configuration.DefaultPlexusConfiguration.add (DefaultPlexusConfiguration.java:175)
+    at org.codehaus.plexus.configuration.DefaultPlexusConfiguration.addChild (DefaultPlexusConfiguration.java:151)
+    at org.codehaus.mojo.hibernate3.util.PlexusConfigurationUtils.setHibernateConfiguration (PlexusConfigurationUtils.java:289)
+    at org.codehaus.mojo.hibernate3.util.PlexusConfigurationUtils.parseHibernateTool (PlexusConfigurationUtils.java:67)
+    at org.codehaus.mojo.hibernate3.AbstractHibernateToolMojo.getConfiguration (AbstractHibernateToolMojo.java:60)
+    at org.codehaus.mojo.hibernate3.AbstractHibernateMojo.execute (AbstractHibernateMojo.java:76)
+    at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo (DefaultBuildPluginManager.java:137)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:210)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:156)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:148)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:117)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:81)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:56)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:128)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:305)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:192)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:105)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:956)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:288)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:192)
+    at sun.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at sun.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)
+    at sun.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:498)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:282)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:225)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:406)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:347)
+[ERROR] 
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException

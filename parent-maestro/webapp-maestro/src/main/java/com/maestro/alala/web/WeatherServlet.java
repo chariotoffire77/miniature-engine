@@ -5,7 +5,7 @@ import java.io.*;
 import javax.servlet.*;
 import javax.servlet.http.*;
 
-import com.maestro.alala.quickstart_maestro.weather.WeatherService;
+import com.maestro.alala.weather.quickstart_maestro.WeatherService;
        
 
 public class WeatherServlet extends HttpServlet {
