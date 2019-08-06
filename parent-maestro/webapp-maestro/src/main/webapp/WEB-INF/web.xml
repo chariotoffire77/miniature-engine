@@ -29,12 +29,12 @@
 	
 	<servlet>
 		<servlet-name>simple</servlet-name>
-		<servlet-class>com.maestro.alala.web.SimpleServlet</servlet-class>
+		<servlet-class>com.maestro.alala.weather.web.SimpleServlet</servlet-class>
 	</servlet>		
 	<servlet>
 		<servlet-name>weather</servlet-name>
 		<!-- 
-		<servlet-class>com.maestro.alala.web.WeatherServlet</servlet-class>
+		<servlet-class>com.maestro.alala.weather.web.WeatherServlet</servlet-class>
 		-->
 		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
 		<load-on-startup>1</load-on-startup>

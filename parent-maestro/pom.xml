@@ -10,11 +10,11 @@
        <module>model-maestro</module>
        <module>command-maestro</module>
      
-       <module>quickstart-maestro</module>
+       
        <module>persist-maestro</module>
        
+       <module>quickstart-maestro</module>
        <module>webapp-maestro</module>
-       
   </modules>
   <dependencies>
   	<dependency>

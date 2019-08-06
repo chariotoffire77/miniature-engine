@@ -1,4 +1,4 @@
-package com.maestro.alala.quickstart_maestro.weather;
+package com.maestro.alala.weather.quickstart_maestro;
 
 import org.apache.wink.client.ClientResponse;
 import org.apache.wink.client.Resource;

@@ -1,4 +1,4 @@
-package com.maestro.alala.web;
+package com.maestro.alala.weather.web;
 
 
 

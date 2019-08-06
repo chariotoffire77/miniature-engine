@@ -3,13 +3,13 @@
 
 <beans>  
      <bean id="weatherController" 
-           class="com.maestro.alala.web.WeatherController">
+           class="com.maestro.alala.weather.web.WeatherController">
        <property name="weatherService" ref="weatherService"/>
        <property name="weatherDAO" ref="weatherDAO"/>
      </bean>
 
      <bean id="historyController" 
-           class="com.maestro.alala.web.HistoryController">
+           class="com.maestro.alala.weather.web.HistoryController">
        <property name="weatherDAO" ref="weatherDAO"/>
        <property name="locationDAO" ref="locationDAO"/>
      </bean>
