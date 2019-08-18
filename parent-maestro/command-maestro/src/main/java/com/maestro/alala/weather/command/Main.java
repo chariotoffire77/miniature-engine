@@ -1,5 +1,6 @@
 package com.maestro.alala.weather.command;
 
+
 import java.util.List;
 
 import org.apache.log4j.PropertyConfigurator;
@@ -25,9 +26,17 @@ public class Main {
 				"log4j.properties"));
 
 		// Read the Zip Code from the Command-line (if none supplied, use 60202)
+		/*
 		String zipcode = "60202";
 		try {
 			zipcode = args[0];
+		} catch (Exception e) {
+		}*/
+		
+		// Read the location from the Command-line (if none supplied, use sunnyvale in california)
+		String location = "sunnyvale,ca";
+		try {
+			location = args[0];
 		} catch (Exception e) {
 		}
 
@@ -39,7 +48,7 @@ public class Main {
 		}
 
 		// Start the program
-		Main main = new Main(zipcode);
+		Main main = new Main(location, null, null);
 
 		ApplicationContext context = 
 			new ClassPathXmlApplicationContext(
@@ -55,20 +64,26 @@ public class Main {
 		}
 	}
 
-	private String zip;
+	private String location;
+	private String woeid;
+	private String latAndLong;
 
-	public Main(String zip) {
-		this.zip = zip;
+	public Main(String location, String woeid, String latAndLong) {
+		this.location = location;
+		this.woeid = woeid;
+		this.latAndLong = latAndLong;
 	}
 
 	public void getWeather() throws Exception {
-		Weather weather = weatherService.retrieveForecast(zip);
+		Weather weather = weatherService.retrieveForecast(location, woeid, latAndLong);
 		weatherDAO.save( weather );
 		System.out.print(new WeatherFormatter().formatWeather(weather));
 	}
 
 	public void getHistory() throws Exception {
-		Location location = locationDAO.findByZip(zip);
+		//Location location = locationDAO.findByZip(zip);
+		
+		Location location = locationDAO.findByCity(this.location);
 		List<Weather> weathers = weatherDAO.recentForLocation(location);
 		System.out.print(new WeatherFormatter().formatHistory(location, weathers));
 	}

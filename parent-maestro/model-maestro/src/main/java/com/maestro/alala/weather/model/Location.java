@@ -6,20 +6,27 @@ import javax.persistence.NamedQueries;
 import javax.persistence.NamedQuery;
 
 
-@Entity
+/*@Entity
 @NamedQueries({@NamedQuery(name="Location.uniqueByZip", query="from Location l where l.zip = :zip")})
+*/
+
+@Entity
+@NamedQueries({@NamedQuery(name="Location.uniqueByCity", query="from Location l where l.city = :city")})
 public class Location {
 
 	@Id
-	private String zip;
-
 	private String city;
+	
+	 // private String zip;
+
+	
 	private String region;
 	private String country;
 
 	public Location() {
 	}
 
+	/*
 	public String getZip() {
 		return zip;
 	}
@@ -27,7 +34,8 @@ public class Location {
 	public void setZip(String zip) {
 		this.zip = zip;
 	}
-
+    */
+	
 	public String getCity() {
 		return city;
 	}

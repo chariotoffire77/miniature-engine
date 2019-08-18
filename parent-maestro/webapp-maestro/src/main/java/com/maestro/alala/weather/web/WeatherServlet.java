@@ -17,16 +17,20 @@ public class WeatherServlet extends HttpServlet {
 	public void doGet( HttpServletRequest request,
 			HttpServletResponse response) throws ServletException, IOException {
 		
-		String zip  = request.getParameter("zip");
+		//String zip  = request.getParameter("zip");
+		String location  = request.getParameter("location");
+		String woeid  = request.getParameter("woeid");
+		String latAndLong  = request.getParameter("latitude");
+	
 		WeatherService weatherService = new WeatherService();
 		PrintWriter out = response.getWriter();
 		
 		try {
-			out.println(weatherService.retrieveForecast( zip ));
+			out.println(weatherService.retrieveForecast( location, latAndLong, woeid ));
 		} catch ( Exception e ){
 			out.println("Error Retrieving Forecast: "+ e.getMessage());
 		}
-		out.println("weatherServlet Executed for zip code: "+ zip);
+		//out.println("weatherServlet Executed for zip code: "+ zip);
 		out.flush();
 		out.close();
 		

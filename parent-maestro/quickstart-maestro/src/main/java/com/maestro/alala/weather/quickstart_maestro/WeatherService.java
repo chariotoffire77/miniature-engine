@@ -11,13 +11,17 @@ public class WeatherService {
 	
 	public WeatherService(){}
 	
-	public Weather retrieveForecast(String zipcode ) throws Exception {
+	public Weather retrieveForecast(String location, String woeid, String latAndLong) throws Exception {
+		
+		if ( location == null && woeid == null && latAndLong == null ) {
+			throw new Exception ("Provide either a value for location, woeid, or latitude/longitude.");
+		}
 		
 		// Retrieve Data
-		InputStream dataIn = new YahooRetriever().retrieve(zipcode);
+		InputStream dataIn = new YahooRetriever().retrieve(location, woeid, latAndLong);
 		
 		// Parse Data
-		Weather weather = new YahooParser().parse(zipcode, dataIn);
+		Weather weather = new YahooParser().parse(dataIn);
 		
 		// Format (Print) Data
 		// return new WeatherFormatter().format( weather );

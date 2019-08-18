@@ -18,7 +18,8 @@ public class YahooParserTest extends TestCase {
 	public void testParser() throws Exception {
 		InputStream nyData = 
 			getClass().getClassLoader().getResourceAsStream("ny-weather.xml");
-		Weather weather = new YahooParser().parse( "10002", nyData );
+		// Weather weather = new YahooParser().parse( "10002", nyData );
+		Weather weather = new YahooParser().parse( nyData );
 		assertEquals( "New York", weather.getLocation().getCity() );
 		assertEquals( "NY", weather.getLocation().getRegion() );
 		assertEquals( "US", weather.getLocation().getCountry() );

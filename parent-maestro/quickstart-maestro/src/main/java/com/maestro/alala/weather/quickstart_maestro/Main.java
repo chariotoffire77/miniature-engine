@@ -42,7 +42,7 @@ public class Main {
 		// Parse Data
 		//Weather weather = new YahooParser().parse( dataIn );
 		
-		Weather weather = new YahooParser().parse( this.zipcode, nyData );
+		Weather weather = new YahooParser().parse( /*this.zipcode, */ nyData );
 		
 		// Format (Print) Data
 		System.out.print( new WeatherFormatter().format( weather ));

@@ -68,6 +68,18 @@
   </dependencies>
 
   <build>
+   <!--  not working.... -->
+    <resources>
+      <resource>
+         <directory>src/main/resources</directory>
+      </resource>
+      <resource>
+         <directory>src/main/credentials</directory>
+      </resource>
+    </resources>
+   
+   <!--  END of extra resources locations needed by MAVEN to look for files needed by weather application......-->
+   
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
         <!-- clean lifecycle, see https://maven.apache.org/ref/current/maven-core/lifecycles.html#clean_Lifecycle -->

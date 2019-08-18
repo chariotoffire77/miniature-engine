@@ -32,7 +32,7 @@ public class YahooParser {
 
     private static Logger log = Logger.getLogger(YahooParser.class);
     
-    public Weather parse(String zip, InputStream inputStream) throws Exception {
+    public Weather parse(/*String zip, */InputStream inputStream) throws Exception {
 	Weather weather = new Weather();
 	
 	log.info( "Creating XML Reader" );
@@ -44,7 +44,7 @@ public class YahooParser {
 	location.setCity( doc.valueOf("/rss/channel/y:location/@city") );
 	location.setRegion( doc.valueOf("/rss/channel/y:location/@region") );
 	location.setCountry( doc.valueOf("/rss/channel/y:location/@country") );
-	location.setZip( zip );
+	//location.setZip( zip );
 	weather.setLocation( location );
 
 	Condition condition = new Condition();
